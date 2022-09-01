@@ -38,7 +38,6 @@ public class SimplePresentationScreen extends JFrame {
 
 	public SimplePresentationScreen(Student studentData) {
 		
-		//Preguntar imagen y gitignore
 		setIconImage(Toolkit.getDefaultToolkit().getImage(SimplePresentationScreen.class.getResource("/images/tdp.png"))); 
 		this.studentData = studentData;
 		ImageIcon pic = new ImageIcon("/proyecto-1/src/images/tdp.png");
@@ -117,7 +116,7 @@ public class SimplePresentationScreen extends JFrame {
 		lblEmail = new JLabel("E-Mail");
 		lblEmail.setBounds(19, 101, 61, 16);
 		tabInformation.add(lblEmail);
-		
+		                            
 		lblGHURL = new JLabel("GitHub URL");
 		lblGHURL.setBounds(19, 128, 72, 16);
 		tabInformation.add(lblGHURL);
