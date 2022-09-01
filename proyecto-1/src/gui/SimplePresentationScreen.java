@@ -38,7 +38,7 @@ public class SimplePresentationScreen extends JFrame {
 
 	public SimplePresentationScreen(Student studentData) {
 		
-		setIconImage(Toolkit.getDefaultToolkit().getImage(SimplePresentationScreen.class.getResource("/images/tdp.png"))); 
+		setIconImage(Toolkit.getDefaultToolkit().getImage(SimplePresentationScreen.class.getResource("\\images\\tdp.png"))); 
 		this.studentData = studentData;
 		ImageIcon pic = new ImageIcon("/proyecto-1/src/images/tdp.png");
 		contentPane = new JPanel();
@@ -127,7 +127,7 @@ public class SimplePresentationScreen extends JFrame {
 		contentPane.add(lblCrecionVentana);
 		
 		lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(SimplePresentationScreen.class.getResource("/images/Foto el 25-8-22 a la(s) 1.32 p. m.-2-2.jpg")));
+		lblNewLabel.setIcon(new ImageIcon(SimplePresentationScreen.class.getResource("\\images\\Foto el 25-8-22 a la(s) 1.32 p. m.-2-2.jpg")));
 		lblNewLabel.setBounds(451, 30, 158, 170);
 		contentPane.add(lblNewLabel);
 	}
