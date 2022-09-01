@@ -1,4 +1,6 @@
 /bin/
 /proyecto-1/bin/
-./proyecto-1/.classpath
-./proyecto-1/.project
+/proyecto-1/.classpath
+/proyecto-1/.project
+.project
+.classpath
